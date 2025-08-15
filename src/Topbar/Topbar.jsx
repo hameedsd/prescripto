@@ -30,7 +30,7 @@
 
 // export default Topbar;
 import "./Topbar.css";
-import logo from "../src/assets/images/logo.png";
+import logo from "../assets/images/logo.png";
 import Home from "../Home/Home";
 import AdminPanel from "../Account/AdminPanel";
 import { Navigate, useNavigate } from "react-router-dom";
