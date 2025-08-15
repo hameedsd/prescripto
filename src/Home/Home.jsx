@@ -92,7 +92,7 @@
 
 import Topbar from "../Topbar/Topbar";
 import "./Home.css";
-import doctor from "C:/Users/HAMEED/Desktop/Prescripto/frontend/src/assets/images/doctor.png";
+import doctor from "../assets/images/doctor.png";
 
 function Home() {
   const doctors = [
@@ -214,7 +214,6 @@ function Home() {
           <li>Address: 123 Health Lane, Wellness City, HC 45678</li>
         </ul>
       </div>
-      <p>hii</p>
     </>
   );
 }
