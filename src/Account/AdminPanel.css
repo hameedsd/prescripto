@@ -1,0 +1,60 @@
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  /* align-items: center; 
+  /* background-color: #f0f8ff; 
+} */
+
+.box {
+  border-radius: 10px; /* rounded corners */
+  border: 5px solid #fcf2f2; /* 1px solid border */
+  padding: 20px;
+  width: 400px; /* optional fixed width */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(247, 249, 252, 0.2);
+}
+.box h1 {
+  color: white; /* text color */
+  text-align: center; /* center the title */
+  margin-bottom: 20px; /* space below the title */
+}
+.userbox {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px; /* space from the title */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column; /* stack its children vertically */
+  gap: 15px; /* space between items inside */
+}
+
+.login,
+.password {
+  margin: 5px;
+  padding: 5px;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center; /* center the button */
+  margin-top: 20px; /* space from the user box */
+}
+.loginbutton {
+  background-color: #1411cc;
+  color: white; /* white text */
+  padding: 10px 20px; /* padding inside the button */
+  border: none; /* no border */
+  border-radius: 5px; /* rounded corners for the button */
+  cursor: pointer; /* pointer cursor on hover */
+}
+.email-input,
+.password-input {
+  width: 70%; /* full width */
+  padding: 1px; /* padding inside the input */
+  border: 1px solid #ccc; /* border around the input */
+  border-radius: 4px; /* rounded corners for inputs */
+  margin: 10px 0; /* space around the inputs */
+}
